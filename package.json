@@ -12,6 +12,8 @@
     "type": "git",
     "url": "https://github.com/zadam/trilium.git"
   },
+
+  
   "scripts": {
     "start-server": "cross-env TRILIUM_ENV=dev node ./src/www",
     "start-electron": "cross-env TRILIUM_ENV=dev electron --inspect=5858 .",
